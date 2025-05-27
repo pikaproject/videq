@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VidozaCLI"
+version = "1.0.0"
+authors = [
+    { name="Rozhak", email="rozhak9@outlook.com" },
+]
+description = "Alat CLI untuk mengunduh video dari berbagai host Videq."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "aiohttp",
+    "beautifulsoup4",
+    "fake-useragent",
+    "tqdm",
+    "aiodns",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RozhakDev/VidozaCLI"
+"Bug Tracker" = "https://github.com/RozhakDev/VidozaCLI/issues"
+
+[project.scripts]
+vidozaCLI = "vidoza_downloader.main:run"
+
+[tool.setuptools.packages.find]
