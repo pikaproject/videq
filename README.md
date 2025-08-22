@@ -1,6 +1,6 @@
 # VidozaCLI – Alat CLI Python Pengunduh Video Aman Tanpa Iklan
 
-![VidozaCLI - Logo](https://github.com/user-attachments/assets/020cf2e7-5c77-45ed-b5d9-711038688ee6)
+![VidozaCLI - Logo](https://github.com/user-attachments/assets/31e73233-9b37-4729-b4b6-1122434e6ce6)
 
 > **VidozaCLI** adalah alat baris perintah (_CLI tool_) modern untuk mengunduh video dari Videq dan platform serupa tanpa iklan berbahaya, malware, atau gangguan lainnya. Dirancang untuk pengalaman pengguna yang aman, cepat, dan bebas hambatan.
 
@@ -91,17 +91,15 @@ VidozaCLI/
 └── README.md             # Dokumentasi ini
 ```
 
+## ⚠️ Peringatan & Penafian
+
+**Alat ini dibuat murni untuk tujuan edukasi.** Tujuannya adalah untuk mempelajari dan mendemonstrasikan konsep rekayasa permintaan HTTP, _web scraping_, dan pengembangan aplikasi baris perintah (CLI) dengan Python.
+
+Pengguna bertanggung jawab penuh atas penggunaan alat ini. Harap hormati hak cipta dan patuhi syarat & ketentuan dari situs web mana pun yang Anda akses. Pengembang tidak bertanggung jawab atas segala bentuk penyalahgunaan.
+
 ## 🤝 Kontribusi
 
-Kontribusi sangat terbuka! Ikuti langkah berikut:
-
-1. **Fork** repositori ini.
-2. Buat branch fitur (`git checkout -b fitur/NamaFitur`).
-3. Commit perubahan (`git commit -m 'Menambahkan Fitur X'`).
-4. Push ke branch Anda (`git push origin fitur/NamaFitur`).
-5. Buka **Pull Request**.
-
-Pastikan kode mengikuti standar gaya dan sertakan dokumentasi relevan.
+Kami sangat menyambut kontribusi dari komunitas untuk membuat VidozaCLI menjadi lebih baik. Jika Anda menemukan bug, memiliki ide untuk fitur baru, atau ingin menyempurnakan kode, silakan buka _Issue_ untuk mendiskusikannya terlebih dahulu. Untuk kontribusi kode, Anda dapat melakukan _fork_ pada repositori ini, membuat branch baru untuk perubahan Anda, dan kemudian mengirimkan _Pull Request_ dengan deskripsi yang jelas. Setiap bantuan, sekecil apa pun, sangat kami hargai!
 
 ## 📄 Lisensi
 
