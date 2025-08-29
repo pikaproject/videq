@@ -28,7 +28,7 @@ def get_embed_headers(video_id: str) -> dict:
     """
     headers = get_default_headers()
     headers.update({
-        "Referer": f"https://videq.ws/", # Sesuaikan domain Referer ini jika terjadi error 403 (Forbidden).
+        "Referer": f"https://videq.fit/", # Sesuaikan domain Referer ini jika terjadi error 403 (Forbidden).
         "Sec-Fetch-Site": "cross-site",
         "Sec-Fetch-Dest": "iframe",
         "Host": "embed.video-src.com",
@@ -57,4 +57,5 @@ async def get_session() -> aiohttp.ClientSession:
     """
     Membuat dan mengembalikan aiohttp.ClientSession.
     """
+
     return aiohttp.ClientSession()
